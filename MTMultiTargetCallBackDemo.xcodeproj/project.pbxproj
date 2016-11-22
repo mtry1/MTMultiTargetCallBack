@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93863AB71DE421D300106EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93863AB61DE421D300106EEF /* main.m */; };
+		93863ABA1DE421D300106EEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93863AB91DE421D300106EEF /* AppDelegate.m */; };
+		93863ABD1DE421D300106EEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93863ABC1DE421D300106EEF /* ViewController.m */; };
+		93863AC01DE421D300106EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93863ABE1DE421D300106EEF /* Main.storyboard */; };
+		93863AC21DE421D300106EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93863AC11DE421D300106EEF /* Assets.xcassets */; };
+		93863AC51DE421D300106EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93863AC31DE421D300106EEF /* LaunchScreen.storyboard */; };
+		93863ACF1DE421F100106EEF /* MTMultiTargetCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93863ACE1DE421F100106EEF /* MTMultiTargetCallBack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93863AB21DE421D300106EEF /* MTMultiTargetCallBackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTMultiTargetCallBackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93863AB61DE421D300106EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93863AB81DE421D300106EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93863AB91DE421D300106EEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93863ABB1DE421D300106EEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93863ABC1DE421D300106EEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93863ABF1DE421D300106EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93863AC11DE421D300106EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93863AC41DE421D300106EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93863AC61DE421D300106EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93863ACD1DE421F100106EEF /* MTMultiTargetCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMultiTargetCallBack.h; sourceTree = "<group>"; };
+		93863ACE1DE421F100106EEF /* MTMultiTargetCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMultiTargetCallBack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93863AAF1DE421D300106EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93863AA91DE421D300106EEF = {
+			isa = PBXGroup;
+			children = (
+				93863ACC1DE421F100106EEF /* MTMultiTargetCallBack */,
+				93863AB41DE421D300106EEF /* MTMultiTargetCallBackDemo */,
+				93863AB31DE421D300106EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93863AB31DE421D300106EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93863AB21DE421D300106EEF /* MTMultiTargetCallBackDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93863AB41DE421D300106EEF /* MTMultiTargetCallBackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				93863AB81DE421D300106EEF /* AppDelegate.h */,
+				93863AB91DE421D300106EEF /* AppDelegate.m */,
+				93863ABB1DE421D300106EEF /* ViewController.h */,
+				93863ABC1DE421D300106EEF /* ViewController.m */,
+				93863ABE1DE421D300106EEF /* Main.storyboard */,
+				93863AC11DE421D300106EEF /* Assets.xcassets */,
+				93863AC31DE421D300106EEF /* LaunchScreen.storyboard */,
+				93863AC61DE421D300106EEF /* Info.plist */,
+				93863AB51DE421D300106EEF /* Supporting Files */,
+			);
+			path = MTMultiTargetCallBackDemo;
+			sourceTree = "<group>";
+		};
+		93863AB51DE421D300106EEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93863AB61DE421D300106EEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93863ACC1DE421F100106EEF /* MTMultiTargetCallBack */ = {
+			isa = PBXGroup;
+			children = (
+				93863ACD1DE421F100106EEF /* MTMultiTargetCallBack.h */,
+				93863ACE1DE421F100106EEF /* MTMultiTargetCallBack.m */,
+			);
+			path = MTMultiTargetCallBack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93863AB11DE421D300106EEF /* MTMultiTargetCallBackDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93863AC91DE421D300106EEF /* Build configuration list for PBXNativeTarget "MTMultiTargetCallBackDemo" */;
+			buildPhases = (
+				93863AAE1DE421D300106EEF /* Sources */,
+				93863AAF1DE421D300106EEF /* Frameworks */,
+				93863AB01DE421D300106EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTMultiTargetCallBackDemo;
+			productName = MTMultiTargetCallBackDemo;
+			productReference = 93863AB21DE421D300106EEF /* MTMultiTargetCallBackDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93863AAA1DE421D300106EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mtry;
+				TargetAttributes = {
+					93863AB11DE421D300106EEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZV5SVKKPDA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93863AAD1DE421D300106EEF /* Build configuration list for PBXProject "MTMultiTargetCallBackDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93863AA91DE421D300106EEF;
+			productRefGroup = 93863AB31DE421D300106EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93863AB11DE421D300106EEF /* MTMultiTargetCallBackDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93863AB01DE421D300106EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93863AC51DE421D300106EEF /* LaunchScreen.storyboard in Resources */,
+				93863AC21DE421D300106EEF /* Assets.xcassets in Resources */,
+				93863AC01DE421D300106EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93863AAE1DE421D300106EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93863ABD1DE421D300106EEF /* ViewController.m in Sources */,
+				93863ABA1DE421D300106EEF /* AppDelegate.m in Sources */,
+				93863ACF1DE421F100106EEF /* MTMultiTargetCallBack.m in Sources */,
+				93863AB71DE421D300106EEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93863ABE1DE421D300106EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93863ABF1DE421D300106EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93863AC31DE421D300106EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93863AC41DE421D300106EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93863AC71DE421D300106EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93863AC81DE421D300106EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93863ACA1DE421D300106EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZV5SVKKPDA;
+				INFOPLIST_FILE = MTMultiTargetCallBackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtry.MTMultiTargetCallBackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93863ACB1DE421D300106EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZV5SVKKPDA;
+				INFOPLIST_FILE = MTMultiTargetCallBackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtry.MTMultiTargetCallBackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93863AAD1DE421D300106EEF /* Build configuration list for PBXProject "MTMultiTargetCallBackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93863AC71DE421D300106EEF /* Debug */,
+				93863AC81DE421D300106EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93863AC91DE421D300106EEF /* Build configuration list for PBXNativeTarget "MTMultiTargetCallBackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93863ACA1DE421D300106EEF /* Debug */,
+				93863ACB1DE421D300106EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93863AAA1DE421D300106EEF /* Project object */;
+}
